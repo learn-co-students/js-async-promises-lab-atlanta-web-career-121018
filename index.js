@@ -6,10 +6,6 @@ const questions = [
 
 let question; 
 
-function askQuestion(){
-  return questions[0]
-}
-
 function appendQuestion(question){
   let container = document.querySelector('.question-container')
   container.innerHTML = question.questionText;
